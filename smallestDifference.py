@@ -1,7 +1,6 @@
 import sys
 
-
-import sys
+# https://www.geeksforgeeks.org/smallest-difference-pair-values-two-unsorted-arrays/
 
 def smallestDifference(arrayOne, arrayTwo):
     arrayOne.sort()     # Sort the array                
