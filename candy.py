@@ -4,6 +4,7 @@ def candy(array):
     # Initialize the number of candies
     # Condition-1 Fulfilled as we gave 1 candy to everyone
     candies = [1] * len(array)
+    print(candies)
         
     # Calculate the candies needed to fulfill left condition     
     # We drop the 0th element as nothing is located left to it
